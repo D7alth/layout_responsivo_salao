@@ -1,0 +1,209 @@
+/*reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background: url("../src/people-2587157_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conteinerMain {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.title .textTitle p {
+    color: gold;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 48px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Tangerine', cursive;
+    border-bottom: 1px solid rgba(252, 252, 252, 0.705);
+}
+
+.title .textTitle {
+    width: 40%;
+}
+
+.title {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.slogan p {
+    color: rgba(252, 252, 252, 0.89);
+    font-size: 20px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.decoration1 P {
+    color: rgb(209, 208, 211);
+}
+
+.decoration0 p {
+    color: rgb(209, 208, 211);
+}
+
+.decoration1 {
+    padding: 0px 0px 0px 90px;
+}
+
+.decoration0 {
+    padding: 0px 90px 0px 0px;
+}
+
+.link {
+    text-decoration: none;
+    color: rgba(252, 252, 252, 0.89);
+    font-size: 14px;
+    padding: 15px;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    transition: all 1s;
+}
+
+.pipeDoLink {
+    color: rgba(252, 252, 252, 0.89);
+    font-size: 20px;
+}
+
+.linkRight:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    transition: all 1s;
+}
+
+.textLink {
+    display: flex;
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteinerDecorations {
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.conteinerBtns {
+    margin-top: 10%;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    text-align: center;
+}
+
+.buttonsInteractive {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 10%;
+    padding: 10px;
+}
+
+.btn1 {
+    background: none;
+    color: white;
+    font-size: 42px;
+    font-style: initial;
+    border: none;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.btn2 {
+    background: none;
+    color: white;
+    font-size: 42px;
+    font-style: initial;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: RGB(130, 178, 198);
+}
+
+.btn3 {
+    background: none;
+    color: white;
+    font-size: 42px;
+    font-style: initial;
+    border: none;
+    margin-top: 10px;
+    color: rgb(224, 127, 208);
+}
+
+.btn4 {
+    background: none;
+    color: white;
+    font-size: 42px;
+    font-style: initial;
+    border: none;
+    margin-bottom: 10px;
+    color: rgb(76, 219, 20);
+}
+
+.btn-p {
+    color: rgba(252, 252, 252, 0.89);
+    font-size: 20px;
+}
+
+.conteinerNav {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.caixaDePromocoes {
+    width: 400px;
+    height: 300px;
+    float: left;
+    border-radius: 5%;
+    margin-top: 10%;
+    margin-left: auto;
+    background-color: rgb(224, 127, 208);
+}
+
+.ConteinerRouter {
+    margin-top: 10%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.textRouterTitle {
+    color: rgba(252, 252, 252, 0.89);
+    font-size: 48px;
+}
+
+.textRouter {
+    color: rgba(252, 252, 252, 0.89);
+    font-size: 24px;
+    margin-bottom: 1%;
+}

@@ -1,0 +1,42 @@
+    @media screen and (max-width:800px) {
+        body {
+            display: block;
+            width: 100vw;
+        }
+        .conteinerMain {
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .caixaDePromocoes {
+            width: 100%;
+            height: 100%;
+            border-radius: 5%;
+            margin-top: 10%;
+            margin-left: 0px;
+            background-color: rgb(224, 127, 208);
+        }
+        .conteinerNav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .buttonsInteractive {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-left: 0%;
+            padding: 10px;
+        }
+        .conteinerBtns {
+            margin-top: 10%;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .img-responsive {
+            width: 100%;
+            height: 100%;
+        }
+    }
